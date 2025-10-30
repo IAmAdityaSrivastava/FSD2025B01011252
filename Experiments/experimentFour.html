@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Experiment 4</title>
+    </head>
+    <body>
+        <center>
+            <h1>Hotel Room Booking Form</h1>
+            <form action="#" method="post">
+                <!--Name-->
+                <label for="fullname">Full Name: </label>
+                <input type="text" id="F" name="fullname" required>
+                <br><br>
+                <!--Email-->
+                <label for="email">Email: </label>
+                <input type="email" id="E" name="email" required>
+                <br><br>
+                <!--Phone-->
+                <label for="phone">Phone: </label>
+                <input type="tel" id="P" name="phone" required>
+                <br><br>
+                <!--Check-in & Check-out-->
+                <label for="checkin">Check-in Date: </label>
+                <input type="date" id="Ci" name="checkin">
+                <br><br>
+                <label for="checkout">Check-out Date: </label>
+                <input type="date" id="Co" name="checkout">
+                <br><br>
+                <!--Room Type-->
+                <label for="room">Room Type: </label>
+                <select id="P" name="room">
+                    <option value="single">Single Room</option>
+                    <option value="double">Double Room</option>
+                    <option value="deluxe">Deluxe Room</option>
+                    <option value="suite">Suite</option>
+                </select>
+                <br><br>
+                <!--Number of Guests-->
+                <label for="guests">Number of Guests: </label>
+                <input type="number" id="G" name="guests" min="1" max="10">
+                <br><br>
+                <!--Special Requests-->
+                <label for="requests">Special Requests: </label><br>
+                <textarea id="R" name="requests" rows="4" cols="40"></textarea>
+                <br><br>
+                <!--Buttons-->
+                <input type="submit" value="Book Now">
+                <input type="reset" value="Reset Form">
+            </form>
+        </center>
+    </body>
+</html>
