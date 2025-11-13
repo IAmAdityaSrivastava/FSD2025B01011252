@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Intro to CSS</title>
+        <link rel="stylesheet" href="styleapplyCSS.css">
+        <style>
+            p{
+                color: blue;
+                font-size: medium;
+                font-family: 'Times New Roman', Times, serif;
+                background-color: lightgrey;
+            }
+            #box1{
+                border: 2px solid black;
+                padding: 10px;
+                margin: 10px;
+                color: green;
+                font-size: x-large;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <!--inline css with elements as selector-->
+        <h1 style="color: red;">First Heading</h1>
+        <!--internal css with elements (or maybe id) as selector-->
+        <p id="box1">
+            This is a paragraph with an ID of box1.
+        </p>
+        <!--external css with id as selector-->
+        <p id="box2">
+            And this one with an ID of box2.
+        </p>
+    </body>
+</html>
